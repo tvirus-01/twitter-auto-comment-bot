@@ -7,7 +7,7 @@ from selenium.webdriver.common.by import By
 from time import sleep
 
 options = Options()
-options.headless = False
+options.headless = True
 options.add_argument("--window-size=1920,1080")
 options.add_argument("user-data-dir=profile-1")
 options.add_experimental_option("detach", True)
